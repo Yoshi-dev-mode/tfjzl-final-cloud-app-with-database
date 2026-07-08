@@ -1,15 +1,39 @@
+# Online Course Assessment System
 
-**General Notes**
+## Repository Name
+tfjzl-final-cloud-app-with-database
 
-An `onlinecourse` app has already been provided in this repo upon which you will be adding a new assesement feature.
+## Project Name
+fullstack_developer_capstone
 
-- If you want to develop the final project on Theia hosted by [IBM Developer Skills Network](https://labs.cognitiveclass.ai/), you will need to create the same project structure on Theia workspace and save it everytime you close the browser
-- Or you could develop the final project locally by setting up your own Python runtime and IDE
-- Hints for the final project are left on source code files
-- You may choose any cloud platform for deployment (default is IBM Cloud Foundry)
-- Depends on your deployment, you may choose any SQL database Django supported such as SQLite3, PostgreSQL, and MySQL (default is SQLite3)
+## Description
+This project extends the provided Django Online Course application by adding an assessment feature. Students can enroll in courses, take assessments, and view their results. The application is built using Django and SQLite (default), and it can be deployed to a cloud platform such as IBM Cloud Foundry.
 
-**ER Diagram**
-For your reference, we have prepared the ER diagram design for the new assesement feature.
+## Technologies Used
+- Python
+- Django
+- SQLite3
+- HTML
+- CSS
+- Bootstrap
 
-![Onlinecourse ER Diagram](https://github.com/ibm-developer-skills-network/final-cloud-app-with-database/blob/master/static/media/course_images/onlinecourse_app_er.png)
+## Features
+- User registration and login
+- Course enrollment
+- Assessment management
+- Quiz submission
+- Score calculation
+- Result display
+
+## Installation
+
+```bash
+git clone https://github.com/Yoshi-dev-mode/tfjzl-final-cloud-app-with-database.git
+cd tfjzl-final-cloud-app-with-database
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+## Author
+Evangel Yoshiya G. Aranas
