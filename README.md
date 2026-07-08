@@ -8,7 +8,7 @@ A Django-based web application that extends the existing **Online Course** platf
 
 | Item                | Details                                                     |
 | ------------------- | ----------------------------------------------------------- |
-| **Repository Name** | `onlinecourse-assessment`                                   |
+| **Repository Name** | `tfjzl-final-cloud-app-with-database`                                   |
 | **Project Name**    | Online Course Assessment System                             |
 | **Framework**       | Django                                                      |
 | **Language**        | Python                                                      |
